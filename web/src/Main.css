@@ -1,0 +1,18 @@
+main {
+    flex: 1;
+}
+
+main ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*Define Duas colunas*/
+    gap: 20px; /*Distancia colunas e linhas em 20 px*/
+    list-style: none; /*Retira o estilo das listas*/
+}
+
+/*Quando estiver abixo de 650px so teremos uma coluna de devs*/
+@media (max-width: 650px) {
+    main ul{
+        grid-template-columns: 1fr;
+    }
+}
+
