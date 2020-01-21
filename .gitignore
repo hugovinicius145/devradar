@@ -115,5 +115,8 @@ npm-debug.*
 web-build/
 web-report/
 
+.expo/packager-info.json
+.expo/settings.json
+
 # macOS
 .DS_Store
